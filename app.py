@@ -35,7 +35,7 @@ def main_page():
     return '¡Servicio REST activo!'
 
 
-@app.route('/model/covid19/', methods=['POST'])
+@app.route('/model/cancer/', methods=['POST'])
 def default():
     data = {"success": False}
     if request.method == "POST":
